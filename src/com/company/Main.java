@@ -30,7 +30,6 @@ public class Main {
         System.out.println("средн. арифм. число " +sum/countOfPositiveNumbers);
 
         System.out.println("до сортировки "+Arrays.toString(numbers));
-
         for (int i = 0; i < numbers.length; i++) {
             for (int j = 0; j < numbers.length-i-1; j++) {
                 if (numbers[j] > numbers[j+1]) {
